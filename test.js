@@ -4,7 +4,7 @@ fetch('https://restcountries.eu/rest/v2/all')
     for (let index = 0; index < json.length; index++) {
        
         var x = document.createElement('div');
-        x.className = "col-lg-3 col-md-4 col-sm-6 edit";
+        x.className = "col-lg-3 col-md-4 col-sm-6 col-12 edit";
         var content = 
         `<div class="card">
                 <img class="card-img-top img-fluid" src="` + json[index].flag +`" alt="Card image">
